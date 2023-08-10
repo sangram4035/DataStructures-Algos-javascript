@@ -1,3 +1,5 @@
+//There are other ways as well to do this problem. Like converting the number to string and then reversing the string and then converting it back to number.
+//But the above solution do not use any of the DSA topics.
 var http = require('http');
 
 http.createServer(function (req, res) {
