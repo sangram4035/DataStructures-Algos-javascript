@@ -7,7 +7,9 @@ http.createServer(function (req, res) {
 }).listen(8090);
 
 function printResult(){
+  //consider this as an input
     let number = 121;
+  //this condition will always return false because a negative integer can never be a palindrome
     if(number < 0){
         return false;
     } 
