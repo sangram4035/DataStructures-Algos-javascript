@@ -16,6 +16,18 @@ function printResult(){
     } 
     else{
         let result = 0;
+      //How the loop works
+
+      //In first Loop
+      //digit = 123 % 10 = 3
+      //res = 0*10+3 =3 
+      //number = 123/10 = 12
+
+      //In second loop
+      //digit = 12 % 10 = 2
+      //res = 3*10+2 =32
+      //number = 12/10= 1
+      //and so on
         while(number>0){
             const digit = number % 10;
             result = result*10 + digit;
