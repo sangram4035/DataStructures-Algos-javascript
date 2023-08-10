@@ -9,6 +9,7 @@ http.createServer(function (req, res) {
 function printResult(){
   //consider this as an input
     let number = 121;
+    let input = number;
   //this condition will always return false because a negative integer can never be a palindrome
     if(number < 0){
         return false;
@@ -20,6 +21,8 @@ function printResult(){
             result = result*10 + digit;
             number = Math.floor(number/10)
         }  
-        return  result;  
+        if(result == input){
+          return true;
+        }
     }
 }
