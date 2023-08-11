@@ -4,4 +4,7 @@ This repository contains some of the very important DS and Algos questions asked
 
 There can be several ways of doing the same questions. I am giving the soulutions based on my knowledge. If someone wants to contribute to the repository, please create a separate funtion with the logic and detailed comments.
 
+To run the Code, need to install Node.
+Run comman : Node filename.extension in the terminal
+
 Note: Please do not remove the already written functions.
